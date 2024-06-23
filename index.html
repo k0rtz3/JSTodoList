@@ -221,5 +221,24 @@
   <!-- Bootstrap -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
   <!-- JS Code -->
+   <script src="index.js"></script>
+
+  <template id="todoEntry">
+    <tr>
+      <td id="todoTitle"></td>
+      <td id="todoDescription"></td>
+      <td class="text-center">
+        <input type="checkbox">
+      </td>
+      <td class="text-right">
+        <button class="btn btn-primary mb-1">
+          <i class="fa fa-pencil"></i>
+        </button>
+        <button class="btn btn-danger mb-1 ml-1">
+          <i class="fa fa-trash"></i>
+        </button>
+      </td>
+    </tr>
+  </template>
 </body>
 </html>
